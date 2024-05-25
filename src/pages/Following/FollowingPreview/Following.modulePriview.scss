@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.avatar-wrapper {
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid rgba(255, 23, 100);
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+}
+.nickname {
+    font-size: 1.4rem;
+    margin-top: 110px;
+    margin-left: -90px;
+    margin-bottom: 10px;
+}
+
+.check {
+    font-size: 1.2rem;
+    color: #20d5ec;
+    margin-left: 4px;
+}

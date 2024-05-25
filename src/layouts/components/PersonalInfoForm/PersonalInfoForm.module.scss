@@ -1,0 +1,49 @@
+// CSS
+.Infor {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 250, 250);
+    display: flex;
+    flex-direction: column;
+    z-index: 9999;
+    padding: 20px;
+    opacity: 1; // Đặt opacity ban đầu thành 1 để bảng thông tin không bị ảnh hưởng bởi hiệu ứng mờ
+    transition: opacity 0.3s ease; // Áp dụng hiệu ứng chuyển đổi cho opacity
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.Infor > div {
+    margin-left: 20px;
+    margin-bottom: 10px; /* Khoảng cách giữa các trường thông tin */
+    box-shadow: 0px 1px 1px rgb(0 0 0/12%);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type='text'] {
+    border: none;
+    background: rgba(22, 24, 35, 0.06);
+    background-color: white;
+    padding: 5px;
+    width: 100%; /* Chiều rộng đầy đủ */
+    font-size: 16px; /* Kích thước chữ */
+    height: 30px; /* Chiều cao */
+    transition: border-bottom-color 0.5s ease;
+}
+
+// button {
+//     margin-top: 10px;
+// }
+.txtcmt {
+    font-size: 1.3rem;
+    color: rgb(109, 105, 105);
+    font-family: var(--font-family);
+    box-shadow: none;
+}
