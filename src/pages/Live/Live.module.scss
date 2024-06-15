@@ -1,0 +1,32 @@
+.wrapper {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row; /* Chỉnh hướng của flex thành hàng ngang */
+    gap: 10px; /* Khoảng cách giữa các nút */
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+}
+
+.wrapper button {
+    margin: 10px 10px;
+}
+
+.live-dexuat {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row; /* Chỉnh hướng của flex thành hàng ngang */
+    gap: 10px; /* Khoảng cách giữa các nút */
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+}
+
+.live-dexuat .p {
+    color: var(--black);
+    font-size: 30px;
+}
+
+.more-btn {
+    padding: 8px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fe2c55;
+    cursor: pointer;
+}
