@@ -1,0 +1,22 @@
+.backgrout {
+    background-color: rgb(233, 230, 230);
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin: 10px;
+    background-color: white;
+    width: var(--default-layout-width);
+    max-width: 100%;
+    padding: 0 var(--default-layout-horizontal-spacer);
+    margin-top: var(--default-layout-header-height);
+    display: flex;
+}
+
+.content {
+    flex: 1;
+}
