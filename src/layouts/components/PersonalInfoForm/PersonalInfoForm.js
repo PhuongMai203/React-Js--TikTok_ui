@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import Button from '~/components/Button'; // Import Button component
-import styles from './PersonalInfoForm.module.scss';
+import Button from '~/components/Button'; 
 import classNames from 'classnames/bind';
+import styles from './PersonalInfoForm.module.scss';
+
 const cx = classNames.bind(styles);
 
 const PersonalInfoForm = ({ onSubmit, onCancel }) => {

@@ -1,0 +1,61 @@
+// src/layouts/account/Login/LoginFrom.module.scss
+
+.Infor {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9999;
+    padding: 20px;
+ margin-left: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Thêm bóng cho form
+    background-color: #fff; // Nền trắng cho form
+    width: 600px; // Đặt chiều rộng cố định cho form
+    transition: opacity 0.3s ease; // Áp dụng hiệu ứng chuyển đổi cho opacity
+}
+
+.Infor > div {
+    width: 100%;
+    margin-bottom: 15px; // Khoảng cách giữa các trường thông tin
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem; // Kích thước chữ cho tiêu đề
+    color: #333; // Màu chữ tiêu đề
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+    color: #020202; // Màu chữ cho label
+}
+
+input[type='text'] {
+    border: 1px solid #ddd; // Đổi màu viền cho các trường input
+    border-radius: 5px; // Bo góc cho các trường input
+    background-color: #f9f9f9; // Nền input sáng hơn
+    padding: 10px;
+    width: 100%; // Chiều rộng đầy đủ
+    font-size: 16px; // Kích thước chữ
+    height: 40px; // Chiều cao
+    transition: border-color 0.3s ease;
+}
+
+input[type='text']:focus {
+    border-color: #fe2c55; // Màu viền khi trường input được chọn
+    outline: none; // Loại bỏ outline mặc định
+}
+
+
+.txtcmt {
+    font-size: 1rem;
+    color: rgb(109, 105, 105);
+    text-align: center; // Căn giữa văn bản
+    margin-top: -10px; // Đẩy văn bản lên một chút
+}
